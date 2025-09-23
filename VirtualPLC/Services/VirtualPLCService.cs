@@ -46,7 +46,10 @@ namespace VirtualPLC.Services
             for (int i = 2; i < 25; i += 2)
             {
                 int s = i;
-                _ = RunRPM(s);
+                _ = Task.Run(async () =>
+                {
+                    await RunRPM(s);
+                });
             }
         }
 
@@ -113,7 +116,7 @@ namespace VirtualPLC.Services
 
                     slave.DataStore.HoldingRegisters[s + 1] = (ushort)_actualRPM; // 현재 RPM
 
-                    await Task.Delay(1000);
+                    await Task.Delay(400);
 
                     MotorConfig?.Invoke(this, new MoterConfig(s, _actualRPM));
                 }

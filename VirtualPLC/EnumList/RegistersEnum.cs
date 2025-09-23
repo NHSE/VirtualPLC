@@ -20,6 +20,6 @@ namespace VirtualPLC.EnumList
         DryChamber3 = 18,
         DryChamber4 = 20,
         DryChamber5 = 22,
-        DryChamber6 = 24,
+        DryChamber6 = 24
     }
 }
