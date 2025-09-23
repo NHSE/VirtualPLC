@@ -1,0 +1,441 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\helpers\\enumtobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:helpers\\enumtobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\enumlist\\registersenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:enumlist\\registersenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\pages\\drychamberplc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\pages\\drychamberplc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\viewmodels\\pages\\drychamberplcviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:viewmodels\\pages\\drychamberplcviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\viewmodels\\pages\\cleanchamberplcviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:viewmodels\\pages\\cleanchamberplcviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\services\\virtualplcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:services\\virtualplcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\pages\\drychamberplc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\pages\\drychamberplc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\pages\\cleanchamberplc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\pages\\cleanchamberplc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\viewmodels\\windows\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:viewmodels\\windows\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\pages\\cleanchamberplc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\pages\\cleanchamberplc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\services\\applicationhostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:services\\applicationhostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\viewmodels\\pages\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:viewmodels\\pages\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\services\\ipsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:services\\ipsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\interfaces\\iplcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:interfaces\\iplcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\models\\moterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:models\\moterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\pages\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\pages\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\views\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:views\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\interfaces\\iconfigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:interfaces\\iconfigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|c:\\users\\36175\\onedrive\\\uBB38\uC11C\\c#_test\\test\\virtualplc\\virtualplc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{88A93D49-5E7B-491F-A9FB-0360C26EA47E}|VirtualPLC.csproj|solutionrelative:virtualplc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnumToBooleanConverter.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Helpers\\EnumToBooleanConverter.cs",
+              "RelativeDocumentMoniker": "Helpers\\EnumToBooleanConverter.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Helpers\\EnumToBooleanConverter.cs",
+              "RelativeToolTip": "Helpers\\EnumToBooleanConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:35:59.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistersEnum.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\EnumList\\RegistersEnum.cs",
+              "RelativeDocumentMoniker": "EnumList\\RegistersEnum.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\EnumList\\RegistersEnum.cs",
+              "RelativeToolTip": "EnumList\\RegistersEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:31:43.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DryChamberPLC.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\DryChamberPLC.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\DryChamberPLC.xaml.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\DryChamberPLC.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\DryChamberPLC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:07:33.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\Windows\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T04:29:33.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DryChamberPLC.xaml",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\DryChamberPLC.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\DryChamberPLC.xaml",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\DryChamberPLC.xaml",
+              "RelativeToolTip": "Views\\Pages\\DryChamberPLC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T06:05:57.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VirtualPLCService.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Services\\VirtualPLCService.cs",
+              "RelativeDocumentMoniker": "Services\\VirtualPLCService.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Services\\VirtualPLCService.cs",
+              "RelativeToolTip": "Services\\VirtualPLCService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwEAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T06:54:29.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DryChamberPLCViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Pages\\DryChamberPLCViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Pages\\DryChamberPLCViewModel.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Pages\\DryChamberPLCViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Pages\\DryChamberPLCViewModel.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwLYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:00:13.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CleanChamberPLCViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Pages\\CleanChamberPLCViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Pages\\CleanChamberPLCViewModel.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Pages\\CleanChamberPLCViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Pages\\CleanChamberPLCViewModel.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAQwLQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T06:51:53.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CleanChamberPLC.xaml",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\CleanChamberPLC.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\CleanChamberPLC.xaml",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\CleanChamberPLC.xaml",
+              "RelativeToolTip": "Views\\Pages\\CleanChamberPLC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-20T06:51:27.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Windows\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Windows\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Windows\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Windows\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:29:50.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Microsoft.WinFX.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ViewState": "AgIAAKsCAAAAAAAAAAAqwMICAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-23T07:03:01.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwDQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T07:04:44.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA0wCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:46:48.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CleanChamberPLC.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\CleanChamberPLC.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\CleanChamberPLC.xaml.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\CleanChamberPLC.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\CleanChamberPLC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T06:50:36.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationHostService.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Services\\ApplicationHostService.cs",
+              "RelativeDocumentMoniker": "Services\\ApplicationHostService.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Services\\ApplicationHostService.cs",
+              "RelativeToolTip": "Services\\ApplicationHostService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T05:59:19.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\SettingsPage.xaml",
+              "RelativeToolTip": "Views\\Pages\\SettingsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T04:39:27.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPSettingService.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Services\\IPSettingService.cs",
+              "RelativeDocumentMoniker": "Services\\IPSettingService.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Services\\IPSettingService.cs",
+              "RelativeToolTip": "Services\\IPSettingService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:56:56.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SettingsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Pages\\SettingsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Pages\\SettingsViewModel.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\ViewModels\\Pages\\SettingsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Pages\\SettingsViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T06:55:59.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MoterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Models\\MoterConfig.cs",
+              "RelativeDocumentMoniker": "Models\\MoterConfig.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Models\\MoterConfig.cs",
+              "RelativeToolTip": "Models\\MoterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:16:07.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPLCManager.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Interfaces\\IPLCManager.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPLCManager.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Interfaces\\IPLCManager.cs",
+              "RelativeToolTip": "Interfaces\\IPLCManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:40:04.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IConfigManager.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Interfaces\\IConfigManager.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IConfigManager.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Interfaces\\IConfigManager.cs",
+              "RelativeToolTip": "Interfaces\\IConfigManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:59:35.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T05:04:58.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\Views\\Pages\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T04:50:53.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VirtualPLC",
+              "DocumentMoniker": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\VirtualPLC.csproj",
+              "RelativeDocumentMoniker": "VirtualPLC.csproj",
+              "ToolTip": "C:\\Users\\36175\\OneDrive\\\uBB38\uC11C\\C#_Test\\test\\VirtualPLC\\VirtualPLC.csproj",
+              "RelativeToolTip": "VirtualPLC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-20T07:16:21.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
