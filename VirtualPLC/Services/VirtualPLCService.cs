@@ -16,14 +16,8 @@ namespace VirtualPLC.Services
         public event EventHandler<MoterConfig> MotorConfig;
         public event EventHandler<MoterConfig> TargetConfig;
         public ModbusTcpSlave slave;
-        private string IP = string.Empty;
-        private int Port;
-
-        public void SetConfig(string IP, int Port)
-        {
-            this.IP = IP;
-            this.Port = Port;
-        }
+        private string IP = "127.0.0.1";
+        private int Port = 502;
 
         /// <summary>
         /// Slave로 TCP 생성
@@ -43,7 +37,7 @@ namespace VirtualPLC.Services
             object lockObject = new object();
 
 
-            for (int i = 2; i < 25; i += 2)
+            for (int i = 1; i < 13; i++)
             {
                 int s = i;
                 _ = Task.Run(async () =>
@@ -66,6 +60,7 @@ namespace VirtualPLC.Services
                 try
                 {
                     var holdingRegisters = slave.DataStore.HoldingRegisters;
+                    var test = slave.DataStore.InputRegisters;
                     var holdingCoil = slave.DataStore.CoilDiscretes;
 
                     int targetRpm = holdingRegisters[s]; // 마스터가 쓴 목표 RPM
@@ -92,7 +87,7 @@ namespace VirtualPLC.Services
                     }
                     else
                     {
-                        int currentRpm = holdingRegisters[s + 1];
+                        int currentRpm = test[s];
                         max_random = currentRpm / 5 < 3 ? 3 : currentRpm / 5;
                         min_random = currentRpm / 10 < 1 ? 1 : currentRpm / 10;
                     }
@@ -114,11 +109,11 @@ namespace VirtualPLC.Services
                         slave.DataStore.CoilDiscretes[s] = false;
                     }
 
-                    slave.DataStore.HoldingRegisters[s + 1] = (ushort)_actualRPM; // 현재 RPM
-
-                    await Task.Delay(400);
+                    slave.DataStore.InputRegisters[s] = (ushort)_actualRPM; // 현재 RPM
 
                     MotorConfig?.Invoke(this, new MoterConfig(s, _actualRPM));
+
+                    await Task.Delay(400);
                 }
                 catch (Exception ex) // <--- catch 블록 추가
                 {

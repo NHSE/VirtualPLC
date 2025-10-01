@@ -10,7 +10,6 @@ namespace VirtualPLC.ViewModels.Pages
     public partial class CleanChamberPLCViewModel : ObservableObject
     {
         private readonly IPLCManager _PLCManger;
-        private readonly IConfigManager _configManager;
 
         [ObservableProperty]
         private bool _cleanChamber1_motorON = false;
@@ -52,12 +51,9 @@ namespace VirtualPLC.ViewModels.Pages
         private int _cleanChamber6_RPM;
 
 
-        public CleanChamberPLCViewModel(IPLCManager PLCManger, IConfigManager configManager)
+        public CleanChamberPLCViewModel(IPLCManager PLCManger)
         {
-            this._configManager = configManager;
             this._PLCManger = PLCManger;
-
-            this._PLCManger.SetConfig(this._configManager.IP, this._configManager.Port);
 
             _ = this._PLCManger.StartAsync();
             this._PLCManger.MotorConfig += VirtualPLC_GetRPM;

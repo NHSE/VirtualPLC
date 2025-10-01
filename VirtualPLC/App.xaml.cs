@@ -51,13 +51,8 @@ namespace VirtualPLC
                 services.AddSingleton<CleanChamberPLCViewModel>();
                 services.AddSingleton<DryChamberPLC>();
                 services.AddSingleton<DryChamberPLCViewModel>();
-                services.AddSingleton<SettingsPage>();
-                services.AddSingleton<SettingsViewModel>();
 
                 services.AddSingleton<IPLCManager, VirtualPLCService>();
-
-                services.AddSingleton<IConfigManager>(provider =>
-                                    new IPSettingService(@"C:\Configs"));
             }).Build();
 
         /// <summary>

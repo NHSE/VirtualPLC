@@ -27,17 +27,6 @@ namespace VirtualPLC.ViewModels.Windows
         };
 
         [ObservableProperty]
-        private ObservableCollection<object> _footerMenuItems = new()
-        {
-            new NavigationViewItem()
-            {
-                Content = "Setting",
-                Icon = new SymbolIcon { Symbol = SymbolRegular.Settings24 },
-                TargetPageType = typeof(Views.Pages.SettingsPage)
-            }
-        };
-
-        [ObservableProperty]
         private ObservableCollection<MenuItem> _trayMenuItems = new()
         {
             new MenuItem { Header = "Home", Tag = "tray_home" }
