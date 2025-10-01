@@ -12,7 +12,6 @@ namespace VirtualPLC.ViewModels.Pages
     public partial class DryChamberPLCViewModel : ObservableObject
     {
         private readonly IPLCManager _PLCManger;
-        private readonly IConfigManager _configManager;
 
         [ObservableProperty]
         private bool _dryChamber1_motorON = false;
@@ -54,12 +53,9 @@ namespace VirtualPLC.ViewModels.Pages
         private int _dryChamber6_RPM;
 
 
-        public DryChamberPLCViewModel(IPLCManager PLCManger, IConfigManager configManager)
+        public DryChamberPLCViewModel(IPLCManager PLCManger)
         {
-            this._configManager = configManager;
             this._PLCManger = PLCManger;
-
-            this._PLCManger.SetConfig(this._configManager.IP, this._configManager.Port);
 
             _ = this._PLCManger.StartAsync();
             this._PLCManger.MotorConfig += VirtualPLC_GetRPM;

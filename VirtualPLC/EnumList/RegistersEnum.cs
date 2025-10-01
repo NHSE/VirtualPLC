@@ -8,18 +8,18 @@ namespace VirtualPLC.EnumList
 {
     public enum RegistersEnum
     {
-        CleanChamber1 = 2,
-        CleanChamber2 = 4,
-        CleanChamber3 = 6,
-        CleanChamber4 = 8,
-        CleanChamber5 = 10,
-        CleanChamber6 = 12,
+        CleanChamber1 = 1,
+        CleanChamber2 = 2,
+        CleanChamber3 = 3,
+        CleanChamber4 = 4,
+        CleanChamber5 = 5,
+        CleanChamber6 = 6,
 
-        DryChamber1 = 14,
-        DryChamber2 = 16,
-        DryChamber3 = 18,
-        DryChamber4 = 20,
-        DryChamber5 = 22,
-        DryChamber6 = 24,
+        DryChamber1 = 7,
+        DryChamber2 = 8,
+        DryChamber3 = 9,
+        DryChamber4 = 10,
+        DryChamber5 = 11,
+        DryChamber6 = 12
     }
 }
