@@ -15,7 +15,7 @@ namespace VirtualPLC.Interfaces
     {
         event EventHandler<MoterConfig> MotorConfig;
         event EventHandler<MoterConfig> TargetConfig;
-        void SetConfig(string IP, int Port);
+
         Task StartAsync();
 
     }

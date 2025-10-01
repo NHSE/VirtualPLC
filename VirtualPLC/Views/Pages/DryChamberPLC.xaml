@@ -17,78 +17,168 @@
             <!-- Chamber 1 -->
             <Border Margin="10" Padding="15" Background="Transparent" CornerRadius="10" BorderBrush="#DDD" BorderThickness="1">
                 <StackPanel>
-                    <TextBlock Text="Chamber 1" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Foreground="Wheat"/>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,5">
-                        <TextBlock Text="Motor ON :" VerticalAlignment="Center" Foreground="Wheat"/>
-                        <CheckBox IsChecked="{Binding ViewModel.DryChamber1_motorON}" Margin="10,0,0,0"/>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="Chamber 1" 
+                       FontWeight="Bold" 
+                       FontSize="16" 
+                       Margin="0,0,0,10" 
+                       Foreground="Wheat"
+                       VerticalAlignment="Center"/> 
+                        <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
+                            <Ellipse.Style>
+                                <Style TargetType="Ellipse">
+                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ViewModel.DryChamber1_motorON}" Value="True">
+                                            <Setter Property="Fill" Value="LightGreen"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Ellipse.Style>
+                        </Ellipse>
                     </StackPanel>
-                    <TextBlock Text="{Binding ViewModel.DryChamber1_taget_RPM, StringFormat='Target RPM : {0}'}" Margin="0,0,0,3" Foreground="Wheat"/>
-                    <TextBlock Text="{Binding ViewModel.DryChamber1_RPM , StringFormat ='Actual RPM : {0}'}" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber1_taget_RPM, StringFormat='Target RPM : {0}'}" Width="150" Margin="0,0,0,3" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber1_RPM , StringFormat ='Actual RPM : {0}'}" Width="150" Foreground="Wheat"/>
                 </StackPanel>
             </Border>
 
             <!-- Chamber 2 -->
             <Border Margin="10" Padding="15" Background="Transparent" CornerRadius="10" BorderBrush="#DDD" BorderThickness="1">
                 <StackPanel>
-                    <TextBlock Text="Chamber 2" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Foreground="Wheat"/>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,5">
-                        <TextBlock Text="Motor ON :" VerticalAlignment="Center" Foreground="Wheat"/>
-                        <CheckBox IsChecked="{Binding ViewModel.DryChamber2_motorON}" Margin="10,0,0,0" Foreground="Wheat"/>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="Chamber 2" 
+                       FontWeight="Bold" 
+                       FontSize="16" 
+                       Margin="0,0,0,10" 
+                       Foreground="Wheat"
+                       VerticalAlignment="Center"/>
+                        <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
+                            <Ellipse.Style>
+                                <Style TargetType="Ellipse">
+                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ViewModel.DryChamber2_motorON}" Value="True">
+                                            <Setter Property="Fill" Value="LightGreen"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Ellipse.Style>
+                        </Ellipse>
                     </StackPanel>
-                    <TextBlock Text="{Binding ViewModel.DryChamber2_taget_RPM, StringFormat='Target RPM: {0}'}" Margin="0,0,0,3" Foreground="Wheat"/>
-                    <TextBlock Text="{Binding ViewModel.DryChamber2_RPM , StringFormat ='Actual RPM: {0}'}" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber2_taget_RPM, StringFormat='Target RPM: {0}'}" Width="150" Margin="0,0,0,3" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber2_RPM , StringFormat ='Actual RPM: {0}'}" Width="150" Foreground="Wheat"/>
                 </StackPanel>
             </Border>
 
             <!-- Chamber 3 -->
             <Border Margin="10" Padding="15" Background="Transparent" CornerRadius="10" BorderBrush="#DDD" BorderThickness="1">
                 <StackPanel>
-                    <TextBlock Text="Chamber 3" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Foreground="Wheat"/>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,5">
-                        <TextBlock Text="Motor ON :" VerticalAlignment="Center" Foreground="Wheat"/>
-                        <CheckBox IsChecked="{Binding ViewModel.DryChamber3_taget_RPM}" Margin="10,0,0,0" Foreground="Wheat"/>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="Chamber 3" 
+                       FontWeight="Bold" 
+                       FontSize="16" 
+                       Margin="0,0,0,10" 
+                       Foreground="Wheat"
+                       VerticalAlignment="Center"/>
+                        <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
+                            <Ellipse.Style>
+                                <Style TargetType="Ellipse">
+                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ViewModel.DryChamber3_motorON}" Value="True">
+                                            <Setter Property="Fill" Value="LightGreen"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Ellipse.Style>
+                        </Ellipse>
                     </StackPanel>
-                    <TextBlock Text="{Binding ViewModel.DryChamber3_taget_RPM, StringFormat='Target RPM: {0}'}" Margin="0,0,0,3" Foreground="Wheat"/>
-                    <TextBlock Text="{Binding ViewModel.DryChamber3_RPM , StringFormat ='Actual RPM: {0}'}" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber3_taget_RPM, StringFormat='Target RPM: {0}'}" Width="150" Margin="0,0,0,3" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber3_RPM , StringFormat ='Actual RPM: {0}'}" Width="150" Foreground="Wheat"/>
                 </StackPanel>
             </Border>
 
             <!-- Chamber 4 -->
             <Border Margin="10" Padding="15" Background="Transparent" CornerRadius="10" BorderBrush="#DDD" BorderThickness="1">
                 <StackPanel>
-                    <TextBlock Text="Chamber 4" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Foreground="Wheat"/>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,5">
-                        <TextBlock Text="Motor ON :" VerticalAlignment="Center" Foreground="Wheat"/>
-                        <CheckBox IsChecked="{Binding ViewModel.DryChamber4_motorON}" Margin="10,0,0,0" Foreground="Wheat"/>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="Chamber 4" 
+                       FontWeight="Bold" 
+                       FontSize="16" 
+                       Margin="0,0,0,10" 
+                       Foreground="Wheat"
+                       VerticalAlignment="Center"/>
+                        <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
+                            <Ellipse.Style>
+                                <Style TargetType="Ellipse">
+                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ViewModel.DryChamber4_motorON}" Value="True">
+                                            <Setter Property="Fill" Value="LightGreen"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Ellipse.Style>
+                        </Ellipse>
                     </StackPanel>
-                    <TextBlock Text="{Binding ViewModel.DryChamber4_taget_RPM, StringFormat='Target RPM: {0}'}" Margin="0,0,0,3" Foreground="Wheat"/>
-                    <TextBlock Text="{Binding ViewModel.DryChamber4_RPM , StringFormat ='Actual RPM: {0}'}" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber4_taget_RPM, StringFormat='Target RPM: {0}'}" Width="150" Margin="0,0,0,3" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber4_RPM , StringFormat ='Actual RPM: {0}'}" Width="150" Foreground="Wheat"/>
                 </StackPanel>
             </Border>
 
             <!-- Chamber 5 -->
             <Border Margin="10" Padding="15" Background="Transparent" CornerRadius="10" BorderBrush="#DDD" BorderThickness="1">
                 <StackPanel>
-                    <TextBlock Text="Chamber 5" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Foreground="Wheat"/>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,5">
-                        <TextBlock Text="Motor ON :" VerticalAlignment="Center" Foreground="Wheat"/>
-                        <CheckBox IsChecked="{Binding ViewModel.DryChamber5_motorON}" Margin="10,0,0,0" Foreground="Wheat"/>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="Chamber 5" 
+                       FontWeight="Bold" 
+                       FontSize="16" 
+                       Margin="0,0,0,10" 
+                       Foreground="Wheat"
+                       VerticalAlignment="Center"/>
+                        <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
+                            <Ellipse.Style>
+                                <Style TargetType="Ellipse">
+                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ViewModel.DryChamber5_motorON}" Value="True">
+                                            <Setter Property="Fill" Value="LightGreen"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Ellipse.Style>
+                        </Ellipse>
                     </StackPanel>
-                    <TextBlock Text="{Binding ViewModel.DryChamber5_taget_RPM, StringFormat='Target RPM: {0}'}" Margin="0,0,0,3" Foreground="Wheat"/>
-                    <TextBlock Text="{Binding ViewModel.DryChamber5_RPM , StringFormat ='Actual RPM: {0}'}" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber5_taget_RPM, StringFormat='Target RPM: {0}'}" Width="150" Margin="0,0,0,3" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber5_RPM , StringFormat ='Actual RPM: {0}'}" Width="150" Foreground="Wheat"/>
                 </StackPanel>
             </Border>
 
             <!-- Chamber 6 -->
             <Border Margin="10" Padding="15" Background="Transparent" CornerRadius="10" BorderBrush="#DDD" BorderThickness="1">
                 <StackPanel>
-                    <TextBlock Text="Chamber 6" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Foreground="Wheat"/>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,5">
-                        <TextBlock Text="Motor ON :" VerticalAlignment="Center" Foreground="Wheat"/>
-                        <CheckBox IsChecked="{Binding ViewModel.DryChamber6_motorON}" Margin="10,0,0,0" Foreground="Wheat"/>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBlock Text="Chamber 6" 
+                       FontWeight="Bold" 
+                       FontSize="16" 
+                       Margin="0,0,0,10" 
+                       Foreground="Wheat"
+                       VerticalAlignment="Center"/>
+                        <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
+                            <Ellipse.Style>
+                                <Style TargetType="Ellipse">
+                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ViewModel.DryChamber6_motorON}" Value="True">
+                                            <Setter Property="Fill" Value="LightGreen"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Ellipse.Style>
+                        </Ellipse>
                     </StackPanel>
-                    <TextBlock Text="{Binding ViewModel.DryChamber6_taget_RPM, StringFormat='Target RPM: {0}'}" Margin="0,0,0,3" Foreground="Wheat"/>
-                    <TextBlock Text="{Binding ViewModel.DryChamber6_RPM , StringFormat ='Actual RPM: {0}'}" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber6_taget_RPM, StringFormat='Target RPM: {0}'}" Margin="0,0,0,3" Width="150" Foreground="Wheat"/>
+                    <TextBlock Text="{Binding ViewModel.DryChamber6_RPM , StringFormat ='Actual RPM: {0}'}" Width="150" Foreground="Wheat"/>
                 </StackPanel>
             </Border>
 
