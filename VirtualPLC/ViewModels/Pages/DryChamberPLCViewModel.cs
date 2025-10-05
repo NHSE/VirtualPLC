@@ -57,7 +57,6 @@ namespace VirtualPLC.ViewModels.Pages
         {
             this._PLCManger = PLCManger;
 
-            _ = this._PLCManger.StartAsync();
             this._PLCManger.MotorConfig += VirtualPLC_GetRPM;
             this._PLCManger.TargetConfig += VirtualPLC_GetTargetRPM;
         }

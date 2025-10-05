@@ -28,10 +28,24 @@
                         <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
                             <Ellipse.Style>
                                 <Style TargetType="Ellipse">
-                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Setter Property="Fill">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                <GradientStop Color="DarkRed" Offset="0"/>
+                                                <GradientStop Color="Red" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding ViewModel.CleanChamber1_motorON}" Value="True">
-                                            <Setter Property="Fill" Value="LightGreen"/>
+                                            <Setter Property="Fill">
+                                                <Setter.Value>
+                                                    <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                        <GradientStop Color="DarkGreen" Offset="0"/>
+                                                        <GradientStop Color="LightGreen" Offset="1"/>
+                                                    </RadialGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
                                         </DataTrigger>
                                     </Style.Triggers>
                                 </Style>
@@ -54,16 +68,30 @@
                                    Foreground="Wheat"
                                    VerticalAlignment="Center"/>
                         <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
-                                 <Ellipse.Style>
-                                         <Style TargetType="Ellipse">
-                                                <Setter Property="Fill" Value="Gray"/>
-                                                <Style.Triggers>
-                                                       <DataTrigger Binding="{Binding ViewModel.CleanChamber2_motorON}" Value="True">
-                                                        <Setter Property="Fill" Value="LightGreen"/>
-                                                       </DataTrigger>
-                                                </Style.Triggers>
-                                         </Style>
-                                 </Ellipse.Style>
+                            <Ellipse.Style>
+                                <Style TargetType="Ellipse">
+                                    <Setter Property="Fill">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                <GradientStop Color="DarkRed" Offset="0"/>
+                                                <GradientStop Color="Red" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ViewModel.CleanChamber2_motorON}" Value="True">
+                                            <Setter Property="Fill">
+                                                <Setter.Value>
+                                                    <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                        <GradientStop Color="DarkGreen" Offset="0"/>
+                                                        <GradientStop Color="LightGreen" Offset="1"/>
+                                                    </RadialGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Ellipse.Style>
                         </Ellipse>
                     </StackPanel>
 
@@ -88,10 +116,24 @@
                         <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
                             <Ellipse.Style>
                                 <Style TargetType="Ellipse">
-                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Setter Property="Fill">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                <GradientStop Color="DarkRed" Offset="0"/>
+                                                <GradientStop Color="Red" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding ViewModel.CleanChamber3_motorON}" Value="True">
-                                            <Setter Property="Fill" Value="LightGreen"/>
+                                            <Setter Property="Fill">
+                                                <Setter.Value>
+                                                    <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                        <GradientStop Color="DarkGreen" Offset="0"/>
+                                                        <GradientStop Color="LightGreen" Offset="1"/>
+                                                    </RadialGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
                                         </DataTrigger>
                                     </Style.Triggers>
                                 </Style>
@@ -116,10 +158,24 @@
                         <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
                             <Ellipse.Style>
                                 <Style TargetType="Ellipse">
-                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Setter Property="Fill">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                <GradientStop Color="DarkRed" Offset="0"/>
+                                                <GradientStop Color="Red" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding ViewModel.CleanChamber4_motorON}" Value="True">
-                                            <Setter Property="Fill" Value="LightGreen"/>
+                                            <Setter Property="Fill">
+                                                <Setter.Value>
+                                                    <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                        <GradientStop Color="DarkGreen" Offset="0"/>
+                                                        <GradientStop Color="LightGreen" Offset="1"/>
+                                                    </RadialGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
                                         </DataTrigger>
                                     </Style.Triggers>
                                 </Style>
@@ -144,10 +200,24 @@
                         <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
                             <Ellipse.Style>
                                 <Style TargetType="Ellipse">
-                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Setter Property="Fill">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                <GradientStop Color="DarkRed" Offset="0"/>
+                                                <GradientStop Color="Red" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding ViewModel.CleanChamber5_motorON}" Value="True">
-                                            <Setter Property="Fill" Value="LightGreen"/>
+                                            <Setter Property="Fill">
+                                                <Setter.Value>
+                                                    <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                        <GradientStop Color="DarkGreen" Offset="0"/>
+                                                        <GradientStop Color="LightGreen" Offset="1"/>
+                                                    </RadialGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
                                         </DataTrigger>
                                     </Style.Triggers>
                                 </Style>
@@ -172,10 +242,24 @@
                         <Ellipse Width="16" Height="16" Margin="10,0,0,9" VerticalAlignment="Center">
                             <Ellipse.Style>
                                 <Style TargetType="Ellipse">
-                                    <Setter Property="Fill" Value="Gray"/>
+                                    <Setter Property="Fill">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                <GradientStop Color="DarkRed" Offset="0"/>
+                                                <GradientStop Color="Red" Offset="1"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding ViewModel.CleanChamber6_motorON}" Value="True">
-                                            <Setter Property="Fill" Value="LightGreen"/>
+                                            <Setter Property="Fill">
+                                                <Setter.Value>
+                                                    <RadialGradientBrush GradientOrigin="0.3,0.3">
+                                                        <GradientStop Color="DarkGreen" Offset="0"/>
+                                                        <GradientStop Color="LightGreen" Offset="1"/>
+                                                    </RadialGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
                                         </DataTrigger>
                                     </Style.Triggers>
                                 </Style>

@@ -13,10 +13,14 @@ namespace VirtualPLC.Interfaces
 {
     public interface IPLCManager
     {
+        bool bConnect { get; set; }
+
         event EventHandler<MoterConfig> MotorConfig;
         event EventHandler<MoterConfig> TargetConfig;
+        event Action IsConnect;
 
         Task StartAsync();
+        Task Initalize();
 
     }
 }

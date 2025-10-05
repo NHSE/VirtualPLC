@@ -20,6 +20,9 @@ namespace VirtualPLC.EnumList
         DryChamber3 = 9,
         DryChamber4 = 10,
         DryChamber5 = 11,
-        DryChamber6 = 12
+        DryChamber6 = 12,
+
+        Master_Connect = 13,
+        Slave_Connect = 14,
     }
 }

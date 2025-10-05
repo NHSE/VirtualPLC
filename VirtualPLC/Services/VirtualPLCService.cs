@@ -8,6 +8,7 @@ using System.Text;
 using NModbus;
 using VirtualPLC.Models;
 using VirtualPLC.Interfaces;
+using VirtualPLC.EnumList;
 
 namespace VirtualPLC.Services
 {
@@ -15,36 +16,97 @@ namespace VirtualPLC.Services
     {
         public event EventHandler<MoterConfig> MotorConfig;
         public event EventHandler<MoterConfig> TargetConfig;
+        public event Action IsConnect;
+
         public ModbusTcpSlave slave;
+        private TcpListener listener;
+
         private string IP = "127.0.0.1";
         private int Port = 502;
+        public bool bConnect {  get; set; }
 
+        public VirtualPLCService()
+        {
+            IPAddress ipAddress = IPAddress.Parse(this.IP);
+            listener = new TcpListener(ipAddress, Port);
+
+            listener.Start();
+
+            slave = ModbusTcpSlave.CreateTcp(1, listener);
+            slave.DataStore = DataStoreFactory.CreateDefaultDataStore();
+            _ = slave.ListenAsync();
+
+            ThreadPool.SetMinThreads(1, 1);
+            ThreadPool.SetMaxThreads(12, 12);
+        }
+
+        public async Task Initalize()
+        {
+            bConnect = false;
+
+            bConnect = await ConnectAsync();
+
+            if (bConnect)
+            {
+                IsConnect?.Invoke();
+                await StartAsync();
+            }
+        }
+
+        /// <summary>
+        /// Slave로 TCP 생성
+        /// </summary>
+        /// <returns></returns>
+        public async Task<bool> ConnectAsync()
+        {
+            while (true)
+            {
+                try
+                {
+                    var Coil = slave.DataStore.CoilDiscretes;
+                    if (Coil[(int)RegistersEnum.Master_Connect])
+                    {
+                        slave.DataStore.CoilDiscretes[(int)RegistersEnum.Slave_Connect] = true;
+                        return true;
+                    }
+
+                    await Task.Delay(1000);
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+            return false;
+        }
         /// <summary>
         /// Slave로 TCP 생성
         /// </summary>
         /// <returns></returns>
         public async Task StartAsync()
         {
-            IPAddress ipAddress = IPAddress.Parse(this.IP);
-            TcpListener listener = new TcpListener(ipAddress, Port);
-            listener.Start();
             Console.WriteLine($"Modbus TCP Slave listening on port {Port}");
 
-            slave = ModbusTcpSlave.CreateTcp(1, listener);
-            slave.DataStore = DataStoreFactory.CreateDefaultDataStore();
-            _ = slave.ListenAsync(); // 백그라운드에서 한번만 실행
+            const int motorCount = 13;
+            Task[] rpmTasks = new Task[motorCount];
 
-            object lockObject = new object();
-
-
-            for (int i = 1; i < 13; i++)
+            // 12개의 RunRPM Task 실행
+            for (int i = 0; i < motorCount; i++)
             {
-                int s = i;
-                _ = Task.Run(async () =>
-                {
-                    await RunRPM(s);
-                });
+                int index = i; // 클로저 문제 방지
+                rpmTasks[i] = Task.Run(() => RunRPM(index));
             }
+
+            await Task.WhenAll(rpmTasks);
+
+            Console.WriteLine("모든 RunRPM 종료. 재연결 시도...");
+
+            slave.DataStore.CoilDiscretes[(int)RegistersEnum.Slave_Connect] = false;
+
+            bConnect = false;
+            IsConnect?.Invoke();
+
+            await Initalize();
         }
 
         /// <summary>
@@ -60,11 +122,16 @@ namespace VirtualPLC.Services
                 try
                 {
                     var holdingRegisters = slave.DataStore.HoldingRegisters;
-                    var test = slave.DataStore.InputRegisters;
+                    var prevValue = slave.DataStore.InputRegisters;
                     var holdingCoil = slave.DataStore.CoilDiscretes;
 
                     int targetRpm = holdingRegisters[s]; // 마스터가 쓴 목표 RPM
                     bool flag = holdingCoil[s];
+
+                    if (!holdingCoil[(int)RegistersEnum.Master_Connect])
+                    {
+                        break;
+                    }
 
                     int rpm;
 
@@ -87,7 +154,7 @@ namespace VirtualPLC.Services
                     }
                     else
                     {
-                        int currentRpm = test[s];
+                        int currentRpm = prevValue[s];
                         max_random = currentRpm / 5 < 3 ? 3 : currentRpm / 5;
                         min_random = currentRpm / 10 < 1 ? 1 : currentRpm / 10;
                     }
