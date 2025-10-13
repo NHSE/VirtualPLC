@@ -22,9 +22,11 @@
 ## 🏗️ Architecture
 
 <p align="center">
-  <img width="900" alt="Architecture" src="https://github.com/user-attachments/assets/61a4433e-205a-480d-ab2e-05f289a60507" />
+  <img width="1471" height="898" alt="image" src="https://github.com/user-attachments/assets/672b1b9a-9753-455f-bd2d-ab884d13cae8" />
 </p>
 
+> **Master :** SemiConductor-Equipment  
+> **Slave :** VirtualPLC
 ---
 
 ## 🌐 통신 구조
