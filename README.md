@@ -13,9 +13,28 @@
 </p>
 
 ---
+## 🛠 설치 방법
+### 1. 저장소 Clone 및 설치 방법
+
+(git, dotnet이 설치가 되어 있지 않다면 설치 후 진행해주세요)
+
+- git : [Download](https://git-scm.com/downloads)  
+- dotnet : [Download](https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.304/dotnet-sdk-9.0.304-win-x64.exe)
+```bash
+
+git clone --branch main https://github.com/NHSE/VirtualPLC.git
+cd VirtualPLC/VirtualPLC
+
+2. 빌드
+dotnet build
+
+3. 실행
+dotnet run
+```
+---
 
 ## ⚙️ 사용 방법
-🔗 [Simulator](https://github.com/NHSE/SemiConductor-Equipment/blob/master/docs/Simulator.md)
+🔗 [**Simulator 사용 가이드 보기**](https://github.com/NHSE/SemiConductor-Equipment/blob/master/docs/Simulator.md)
 
 ---
 
